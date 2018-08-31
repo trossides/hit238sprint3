@@ -1,5 +1,5 @@
 {
   "name": "assignment",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "ionic-angular", "gulpStartupTasks": ["sass", "watch"]
 }
