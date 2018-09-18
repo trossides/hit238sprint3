@@ -11,6 +11,8 @@ angular.module('firebaseConfig', ['firebase'])
   };
   firebase.initializeApp(config);
 
+  //const messaging = firebase
+
 })
 
 /*
