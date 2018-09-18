@@ -11,7 +11,14 @@ angular.module('firebaseConfig', ['firebase'])
   };
   firebase.initializeApp(config);
 
-  //const messaging = firebase
+  const messaging = firebase.messaging();
+  messaging.requestPermission()
+  .then(function(){
+      console.log('Have permission');
+  })
+.catch(function(err){
+    console.log('Error Occured');
+})
 
 })
 
